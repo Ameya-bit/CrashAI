@@ -1,0 +1,7 @@
+{
+  "name": "CrashAI",
+  "description": "A sophisticated prototype to predict crash risk based on infrastructure features and identify the top 3 fixable improvements using Random Forest and SHAP values.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
