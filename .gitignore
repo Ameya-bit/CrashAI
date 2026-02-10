@@ -12,6 +12,22 @@ dist
 dist-ssr
 *.local
 
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Model & data files (too large for git)
+models/exports/
+models/*.csv
+
+# Environment / secrets
+.env
+.env.*
+
+# Test scripts
+test_predict.py
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

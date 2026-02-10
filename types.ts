@@ -15,12 +15,20 @@ export interface CrashData {
   TCD_FUNC_CD: string;
 }
 
+export interface SeverityProb {
+  level: number;
+  label: string;
+  probability: number;
+}
+
 export interface PredictionResult {
   riskScore: number;
+  severityProbs: SeverityProb[];
   topFixes: {
     feature: string;
     impact: number;
     recommendation: string;
+    currentValue: string;
   }[];
 }
 
